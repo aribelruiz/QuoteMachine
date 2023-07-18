@@ -5,8 +5,7 @@ $hover-blue: rgb(0, 86, 197);
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.279);
-    min-width: 45vw;
-    width: fit-content;
+    width: 45vw;
     min-height: 40vh;
     height: fit-content;
     display: flex;
@@ -22,10 +21,11 @@ $hover-blue: rgb(0, 86, 197);
 #text {
     display: flex;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     min-height: 20vh;
     column-gap: 10px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 20px 20px;
+    font-size: xx-large;
 }
 
 .quote-icons {
