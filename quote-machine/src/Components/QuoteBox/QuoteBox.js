@@ -53,6 +53,8 @@ const QuoteBox = () => {
     // Fetches quote when page first launches
     useEffect(() => {
         fetchRandomQuote();
+
+        // eslint-disable-next-line
     }, []);
 
     return(
@@ -68,7 +70,7 @@ const QuoteBox = () => {
                     <h4 id='author'> - {author}</h4>
                 </div>
                 <div className="quote-footer">
-                    <a style={{backgroundColor:backColor}} id='tweet-quote' href={tweet} target="_blank" title="Tweet Quote!">
+                    <a style={{backgroundColor:backColor}} id='tweet-quote' href={tweet} target="_blank" rel="noreferrer" title="Tweet Quote!">
                         <FontAwesomeIcon id='twitter-icon' icon={['fab', 'twitter']}/>
                     </a>
                     <Button style={{backgroundColor:backColor}} size='md' id='new-quote' onClick={fetchRandomQuote}>
