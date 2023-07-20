@@ -62,12 +62,12 @@ const QuoteBox = () => {
         <div style={{backgroundColor:backColor}} id='quote-background'>
             <div id='quote-box'>
                 <div className='quote-header'>
-                    <h1 id='text'>
+                    <h1 id='text' style={{color: backColor}}>
                         <FontAwesomeIcon className="quote-icons" icon={['fas', 'quote-left']}/>
                         {quote}
                         <FontAwesomeIcon className="quote-icons" icon={['fas', 'quote-right']}/>
                     </h1>
-                    <h4 id='author'> - {author}</h4>
+                    <h4 id='author' style={{color: backColor}}> - {author}</h4>
                 </div>
                 <div className="quote-footer">
                     <a style={{backgroundColor:backColor}} id='tweet-quote' href={tweet} target="_blank" rel="noreferrer" title="Tweet Quote!">
