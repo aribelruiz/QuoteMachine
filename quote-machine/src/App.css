@@ -1,11 +1,3 @@
 .App {
   text-align: center;
 }
-
-.home-container {
-  background-color: gray;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
